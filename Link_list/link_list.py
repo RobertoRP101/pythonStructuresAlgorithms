@@ -26,3 +26,7 @@ class LinkedList(object):
         while temp is not None:
             print(temp.value)
             temp = temp.next
+            
+    def pop(self):
+          if self.length == 0:
+              return None

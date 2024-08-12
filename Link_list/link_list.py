@@ -38,4 +38,8 @@ class LinkedList(object):
         self.tail = pre
         self.tail.next = None
         self.length -= 1
+        if self.length == 0:
+            self.head = None
+            self.tail = None
+        return temp
             

@@ -8,3 +8,8 @@ print(list_element.print_list())
 print(list_element.pop())
 print(list_element.pop())
 
+list_element.prepend(0)
+list_element.prepend(-1)
+list_element.prepend(-2)
+list_element.prepend(-3)
+print(list_element.print_list())

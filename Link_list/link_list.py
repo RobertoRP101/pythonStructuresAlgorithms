@@ -42,4 +42,10 @@ class LinkedList(object):
             self.head = None
             self.tail = None
         return temp.value
+    
+    def append(self, value):
+        new_node = Node(value)
+        if self.length == 0:
+            self.head = new_node
+            self.tail = new_node
             

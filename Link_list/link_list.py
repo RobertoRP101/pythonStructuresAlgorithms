@@ -63,5 +63,5 @@ class LinkedList(object):
         self.length -= 1
         if self.length == 0:
             self.tail = None
-        return temp
+        return temp.value
         

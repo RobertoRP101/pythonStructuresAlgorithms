@@ -15,5 +15,7 @@ list_element.prepend(-3)
 print(list_element.print_list())
 print(f'Element poped: {list_element.pop_first()}')
 print(list_element.print_list())
-print(f'Element got: {list_element.get(2)}')
+print(f'Element got: {list_element.get(2).value}')
+list_element.set_value(2, 10)
+print(list_element.print_list())
 

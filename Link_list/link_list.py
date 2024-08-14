@@ -71,11 +71,11 @@ class LinkedList(object):
         temp = self.head
         for _ in range(index):
             temp = temp.next
-        return temp.value
+        return temp
     
     def set_value(self, index, value):
         temp = self.get(index)
-        if temp is not None:
+        if temp:
             temp.value = value
             return True
         return False

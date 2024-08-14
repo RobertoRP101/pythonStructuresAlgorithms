@@ -65,3 +65,10 @@ class LinkedList(object):
             self.tail = None
         return temp.value
         
+    def get(self, index):
+        if index < 0 or self.length <= index:
+            return None
+        temp = self.head
+        for _ in range(index):
+            temp = temp.next
+        return temp.value

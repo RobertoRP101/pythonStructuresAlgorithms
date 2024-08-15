@@ -18,4 +18,7 @@ print(list_element.print_list())
 print(f'Element got: {list_element.get(2).value}')
 list_element.set_value(2, 10)
 print(list_element.print_list())
+list_element.insert(3, -100)
+print(list_element.print_list())
+
 

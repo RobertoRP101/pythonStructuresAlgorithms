@@ -20,5 +20,8 @@ list_element.set_value(2, 10)
 print(list_element.print_list())
 list_element.insert(3, -100)
 print(list_element.print_list())
-
+list_element.insert(0, -100)
+print(list_element.print_list())
+list_element.insert(list_element.length, -100)
+print(list_element.print_list())
 

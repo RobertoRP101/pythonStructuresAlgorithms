@@ -99,3 +99,5 @@ class LinkedList(object):
             return None
         if index == 0:
             return self.pop_first()
+        if index == self.length - 1:
+            return self.pop()

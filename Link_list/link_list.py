@@ -93,3 +93,6 @@ class LinkedList(object):
         temp.next = new_node
         self.length += 1
         return True
+    
+    def remove(self, index):
+        pass

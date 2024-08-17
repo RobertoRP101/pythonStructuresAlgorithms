@@ -108,3 +108,5 @@ class LinkedList(object):
         self.length -= 1
         return temp.value
         
+    def reverse(self):
+        pass

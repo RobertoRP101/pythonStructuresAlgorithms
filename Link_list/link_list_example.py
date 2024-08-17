@@ -30,4 +30,7 @@ list_element.remove(0)
 print(list_element.print_list())
 list_element.remove(2)
 print(list_element.print_list())
+list_element.reverse()
+print(list_element.print_list())
+
 

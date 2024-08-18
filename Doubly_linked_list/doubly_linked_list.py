@@ -5,4 +5,7 @@ class Node(object):
 
 class DoublyLinkedList:
     def __init__(self, value):
-        pass
+        new_node = Node(value)
+        self.head = new_node
+        self.tail = new_node
+        self.length = 1

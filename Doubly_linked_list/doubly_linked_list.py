@@ -1,7 +1,8 @@
 class Node(object):
     def __init__(self, value) -> None:
         self.value = value
-        self.next = None   
+        self.next = None
+        self.prev = None
 
 class DoublyLinkedList:
     def __init__(self, value):
@@ -15,3 +16,5 @@ class DoublyLinkedList:
         while temp is not None:
             print(temp.value, end=', ')
             temp = temp.next
+            
+    

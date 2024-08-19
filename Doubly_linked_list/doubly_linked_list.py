@@ -16,6 +16,7 @@ class DoublyLinkedList:
         while temp is not None:
             print(temp.value, end=', ')
             temp = temp.next
+        print('\n')
             
     def append(self, value):
         new_node = Node(value)

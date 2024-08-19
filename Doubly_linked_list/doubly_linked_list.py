@@ -28,3 +28,9 @@ class DoublyLinkedList:
             self.tail = new_node
         self.length += 1
         return True
+    
+    def pop(self):
+        if self.length == 0:
+            return None
+            
+            

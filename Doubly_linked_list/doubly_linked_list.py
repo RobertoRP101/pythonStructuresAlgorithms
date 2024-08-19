@@ -17,4 +17,8 @@ class DoublyLinkedList:
             print(temp.value, end=', ')
             temp = temp.next
             
-    
+    def append(self, value):
+        new_node = Node(value)
+        if self.head is None:
+            self.head = new_node
+            self.tail = new_node

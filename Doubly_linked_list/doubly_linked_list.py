@@ -90,6 +90,9 @@ class DoublyLinkedList:
             return True
         return False
     
+    def insert(self, index, value):
+        pass
+    
     
         
 

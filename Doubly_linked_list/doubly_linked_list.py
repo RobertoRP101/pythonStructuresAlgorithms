@@ -69,6 +69,10 @@ class DoublyLinkedList:
             temp.next = None
         self.length -= 1
         return temp.value
+    
+    def get(self, index):
+        if index < 0 or index >= self.length:
+            return None
         
     
     

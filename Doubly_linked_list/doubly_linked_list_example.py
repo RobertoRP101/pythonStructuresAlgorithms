@@ -21,3 +21,10 @@ my_doubly_linked_list.pop_first()
 my_doubly_linked_list.print_list()
 my_doubly_linked_list.pop_first()
 my_doubly_linked_list.print_list()
+print('get function:\n')
+my_doubly_linked_list.prepend(200)
+my_doubly_linked_list.prepend(59)
+my_doubly_linked_list.prepend(23)
+
+for position in range(0, 3):
+    print(f'Get element in position {position}: {my_doubly_linked_list.get(position)}')

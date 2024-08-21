@@ -81,7 +81,7 @@ class DoublyLinkedList:
             temp = self.tail
             for _ in range(self.length -1, index, -1):
                 temp = temp.prev
-        return temp.value
+        return temp
     
     
         

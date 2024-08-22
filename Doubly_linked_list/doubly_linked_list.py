@@ -106,6 +106,9 @@ class DoublyLinkedList:
         before.next = new_node
         after.prev = new_node
         
+        self.length += 1
+        return True
+        
     
     
         

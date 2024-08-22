@@ -95,6 +95,8 @@ class DoublyLinkedList:
             return False
         if index == 0:
             return self.prepend(value)
+        if index == self.length:
+            return self.append(value)
     
     
         

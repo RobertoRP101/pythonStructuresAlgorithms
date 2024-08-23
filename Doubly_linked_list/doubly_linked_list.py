@@ -109,6 +109,9 @@ class DoublyLinkedList:
         self.length += 1
         return True
         
+    def remove(self, index):
+        if index < 0 or index >= self.length:
+            return False
     
     
         

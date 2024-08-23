@@ -32,3 +32,9 @@ for position in range(0, 3):
 print('set function:\n')
 my_doubly_linked_list.set(1, -20000)
 my_doubly_linked_list.print_list()
+
+print('insert function:\n')
+my_doubly_linked_list.insert(0, 999)
+my_doubly_linked_list.insert(1, 555)
+my_doubly_linked_list.insert(my_doubly_linked_list.length, 9999)
+my_doubly_linked_list.print_list()

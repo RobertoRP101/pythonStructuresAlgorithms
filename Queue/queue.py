@@ -16,3 +16,9 @@ class Queue:
         while temp is not None:
             print(temp.value, end=', ')
             temp = temp.next
+            
+    def enqueue(self, value):
+        new_node = Node(value)
+        if self.first is None:
+            self.first = new_node
+            self.last = new_node

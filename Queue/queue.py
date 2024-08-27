@@ -34,3 +34,8 @@ class Queue:
         if self.length == 1:
             self.first = None
             self.last = None
+        else:
+            self.first = self.first.next
+            temp.next = None
+        self.length -=1
+        return temp

@@ -7,3 +7,6 @@ class Node:
 class BinarySearchTree:
     def __init__(self) -> None:
         self.root = None
+        
+    def insert(self, value):
+        pass

@@ -24,4 +24,6 @@ class BinarySearchTree:
                 temp = temp.left
             else:
                 if temp.right is None:
-                    pass
+                    temp.right = new_node
+                    return True
+                temp = temp.right

@@ -13,3 +13,7 @@ class BinarySearchTree:
         if self.root is None:
             self.root = new_node
             return True
+        temp = self.root
+        while(True):
+            if new_node.value == temp.value:
+                return False

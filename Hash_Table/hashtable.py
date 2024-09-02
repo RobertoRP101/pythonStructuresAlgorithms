@@ -24,3 +24,4 @@ class HashTable(object):
             for i in range(len(self.data_map[index])):
                 if self.data_map[index][i][0] == key:
                     return self.data_map[index][i][1]
+        return None

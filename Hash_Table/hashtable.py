@@ -11,3 +11,6 @@ class HashTable(object):
     def print_table(self):
         for i, val in enumerate(self.data_map):
             print(i,': ',val)
+            
+    def set_item(self, key, value):
+        pass

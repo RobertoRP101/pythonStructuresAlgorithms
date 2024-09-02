@@ -13,4 +13,7 @@ class HashTable(object):
             print(i,': ',val)
             
     def set_item(self, key, value):
-        pass
+        index = self.__hash(key)
+        if self.data_map[index] == None:
+            self.data_map[index] = []
+            

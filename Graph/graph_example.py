@@ -10,3 +10,5 @@ my_graph.print_graph()
 my_graph.add_vertex('D')
 my_graph.add_vertex('F')
 my_graph.print_graph()
+
+print(my_graph.add_edge('A','B'))

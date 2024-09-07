@@ -11,3 +11,6 @@ class Graph(object):
             self.adj_list[vertex] = []
             return True
         return False
+    
+    def add_egg(self, v1, v2):
+        pass

@@ -18,3 +18,6 @@ class Graph(object):
             self.adj_list[v2].append(v1)
             return True
         return False
+    
+    def remove_edge(self, v1, v2):
+        pass

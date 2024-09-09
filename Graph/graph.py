@@ -31,3 +31,5 @@ class Graph(object):
             for other_vertex in self.adj_list[vertex]:
                 self.adj_list[other_vertex].remove(vertex)
             del self.adj_list[vertex]
+            return True
+        return False

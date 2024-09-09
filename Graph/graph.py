@@ -27,4 +27,5 @@ class Graph(object):
         return False
     
     def remove_vertex(self, vertex):
-        pass
+        if vertex in self.adj_list.keys():
+            pass

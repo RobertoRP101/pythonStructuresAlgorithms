@@ -28,4 +28,5 @@ class Graph(object):
     
     def remove_vertex(self, vertex):
         if vertex in self.adj_list.keys():
-            pass
+            for other_vertex in self.adj_list[vertex]:
+                self.adj_list[other_vertex].remove(vertex)

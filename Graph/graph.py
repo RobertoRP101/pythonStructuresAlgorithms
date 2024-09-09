@@ -25,3 +25,6 @@ class Graph(object):
             self.adj_list[v2].remove(v1)
             return True
         return False
+    
+    def remove_vertex(self, vertex):
+        pass

@@ -15,4 +15,4 @@ class MaxHead(object):
         self.heap[index1], self.heap[index2] = self.heap[index2], self.heap[index1]
     
     def insert(self, value):
-        pass
+        self.heap.append(value)

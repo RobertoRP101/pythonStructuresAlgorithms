@@ -17,6 +17,6 @@ class MaxHead(object):
     def insert(self, value):
         self.heap.append(value)
         current = len(self.heap) - 1
-        while current > 0 and self.heap[current] > self.heap[self._parent(current)]:
+        while current > 0 and self.heap[current] > self.heap[self._parents(current)]:
             self._swap(current, self._parents(current))
-            current = self._parent(current)
+            current = self._parents(current)

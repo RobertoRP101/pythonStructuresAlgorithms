@@ -20,3 +20,6 @@ class MaxHead(object):
         while current > 0 and self.heap[current] > self.heap[self._parents(current)]:
             self._swap(current, self._parents(current))
             current = self._parents(current)
+            
+    def remove(self):
+        pass

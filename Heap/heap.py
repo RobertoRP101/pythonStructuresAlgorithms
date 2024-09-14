@@ -22,4 +22,5 @@ class MaxHead(object):
             current = self._parents(current)
             
     def remove(self):
-        pass
+        if len(self.heap) == 0:
+            return None

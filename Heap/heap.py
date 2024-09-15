@@ -33,3 +33,6 @@ class MaxHead(object):
         self._sink_down(0)
         
         return max_value
+    
+    def _sink_down(self, index):
+        pass

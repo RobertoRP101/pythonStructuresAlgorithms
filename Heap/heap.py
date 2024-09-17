@@ -42,3 +42,8 @@ class MaxHead(object):
             
             if self.heap[left_index] > self.heap[max_index]:
                 max_index = left_index
+                
+            if self.heap[right_index] > self.heap[max_index]:
+                max_index = right_index
+            
+            
